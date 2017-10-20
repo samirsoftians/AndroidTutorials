@@ -25,6 +25,11 @@
         <activity
             android:name="com.softianstech.androidtutorial.SqliteDatabaseRegistration.activities.UsersListActivity"
             android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.softianstech.androidtutorial.RetrofitDemo.MainActivity"
+            android:screenOrientation="portrait" />
+
     </application>
 
 </manifest>
