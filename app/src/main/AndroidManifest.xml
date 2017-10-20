@@ -27,7 +27,7 @@
             android:screenOrientation="portrait" />
 
         <activity
-            android:name="com.softianstech.androidtutorial.RetrofitDemo.MainActivity"
+            android:name="com.softianstech.androidtutorial.RecyclerView.MainActivity"
             android:screenOrientation="portrait" />
 
     </application>

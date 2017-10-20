@@ -35,7 +35,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"
             android:onClick="sqlite"
-            android:id="@+id/retrofit"
+            android:id="@+id/reycler"
             android:background="#ad4309"
             android:textColor="#fff"
             android:gravity="center"

@@ -1,4 +1,4 @@
-package com.softianstech.androidtutorial.RetrofitDemo;
+package com.softianstech.androidtutorial.RecyclerView;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;

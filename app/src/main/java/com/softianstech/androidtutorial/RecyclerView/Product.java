@@ -1,4 +1,4 @@
-package com.softianstech.androidtutorial.RetrofitDemo;
+package com.softianstech.androidtutorial.RecyclerView;
 
 /**
  * Created by Lenovo on 10/20/2017.

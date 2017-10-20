@@ -9,7 +9,7 @@ import android.widget.TextView;
 import com.softianstech.androidtutorial.SqliteDatabaseRegistration.activities.LoginActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
-    TextView sqlite;
+    TextView sqlite,recyclerview;
 
 
     @Override
@@ -17,12 +17,23 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         sqlite= (TextView) findViewById(R.id.sqlite);
-
+        recyclerview=(TextView) findViewById(R.id.reycler);
         sqlite.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
                 Intent intent=new Intent(MainActivity.this, LoginActivity.class);
+                startActivity(intent);
+
+            }
+        });
+
+
+        recyclerview.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent=new Intent(MainActivity.this, com.softianstech.androidtutorial.RecyclerView.MainActivity.class);
                 startActivity(intent);
 
             }
