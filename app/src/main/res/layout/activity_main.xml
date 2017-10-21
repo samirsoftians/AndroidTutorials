@@ -49,6 +49,44 @@
 
 
 
+        <TextView
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:onClick="insertretro"
+            android:id="@+id/insertretro"
+            android:background="#ad4309"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="30dp"
+            android:text="Insert Retro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+
+        <TextView
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:onClick="RetriveRetro"
+            android:id="@+id/RetriveRetro"
+            android:background="#ad4309"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="30dp"
+            android:text="Retrive Retro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+
+
+
 
 
 

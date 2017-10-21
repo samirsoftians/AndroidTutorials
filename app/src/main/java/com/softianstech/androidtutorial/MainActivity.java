@@ -9,7 +9,7 @@ import android.widget.TextView;
 import com.softianstech.androidtutorial.SqliteDatabaseRegistration.activities.LoginActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
-    TextView sqlite,recyclerview;
+    TextView sqlite,recyclerview,RetriveRetro,insertretro;
 
 
     @Override
@@ -18,6 +18,20 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
         sqlite= (TextView) findViewById(R.id.sqlite);
         recyclerview=(TextView) findViewById(R.id.reycler);
+        RetriveRetro=(TextView) findViewById(R.id.RetriveRetro);
+        insertretro=(TextView) findViewById(R.id.insertretro);
+
+        insertretro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent=new Intent(MainActivity.this, com.softianstech.androidtutorial.InsertRetro.MainActivity.class);
+                startActivity(intent);
+
+            }
+        });
+
+
         sqlite.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -34,6 +48,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             public void onClick(View v) {
 
                 Intent intent=new Intent(MainActivity.this, com.softianstech.androidtutorial.RecyclerView.MainActivity.class);
+                startActivity(intent);
+
+            }
+        });
+
+
+        RetriveRetro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent=new Intent(MainActivity.this, com.softianstech.androidtutorial.RetriveRetroDemo.MainActivity.class);
                 startActivity(intent);
 
             }

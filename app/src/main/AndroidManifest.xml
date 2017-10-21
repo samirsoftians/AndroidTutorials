@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.softianstech.androidtutorial">
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -28,6 +29,15 @@
 
         <activity
             android:name="com.softianstech.androidtutorial.RecyclerView.MainActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.softianstech.androidtutorial.RetriveRetroDemo.MainActivity"
+            android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name="com.softianstech.androidtutorial.InsertRetro.MainActivity"
             android:screenOrientation="portrait" />
 
     </application>
